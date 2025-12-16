@@ -38,12 +38,12 @@ const Navbar = () => {
             Testimonials
           </a>
 
-          <a
-            href="http://localhost:3000/ai"
+          <Link
+            to="/ai"
             className="text-gray-600 hover:text-gray-900 transition-colors"
           >
-            AI task suggestions
-          </a>
+            AI Task Suggestions
+          </Link>
 
           {/* CTA */}
         <Link
