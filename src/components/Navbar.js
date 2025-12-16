@@ -12,12 +12,12 @@ const Navbar = () => {
 
         {/* Navigation */}
         <div className="flex items-center space-x-8 text-sm font-medium">
-          <a
-            href="http://localhost:3000/"
+           <Link
+            to="/"
             className="text-gray-600 hover:text-gray-900 transition-colors"
           >
             Home
-          </a>
+          </Link>
           
           <a
             href="#features"
